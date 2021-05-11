@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2817412752187609968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2817412752187609970}
+  - component: {fileID: 2817412752187609969}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2817412752187609970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2817412752187609968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2050282, y: 2.1907308, z: -331.25827}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2817412752187609969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2817412752187609968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c580e58b3a516345b2d7e63ee32b772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: crawlerWalk
+    clip: {fileID: 8300000, guid: 41137faddaf074c449f451e0f6c383af, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: bgMusic
+    clip: {fileID: 8300000, guid: 52e392df67857cf478441f4fbe58dfc8, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: crawlerJump
+    clip: {fileID: 8300000, guid: 6d35a056fa121b24abd9e4fffb64ad97, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: crawlerLand
+    clip: {fileID: 8300000, guid: 0734eaab58d66ae46b17a0ab321b684e, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: crawlerTurnOff
+    clip: {fileID: 8300000, guid: decdc37f76181484ab85c34b65804dab, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: crawlerTurnOn
+    clip: {fileID: 8300000, guid: e457adc55511e1d4d86f17317a91d3bb, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: bitThrow
+    clip: {fileID: 8300000, guid: f30923eb98ee7c04f99d1f89f2b1e2f9, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: bitLand
+    clip: {fileID: 8300000, guid: 0734eaab58d66ae46b17a0ab321b684e, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: checkpoint
+    clip: {fileID: 8300000, guid: af62ff75d860a03439ce0081d9b41671, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: pickup
+    clip: {fileID: 8300000, guid: 317288a314e00ba40935d4945ce16283, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: doorOpen
+    clip: {fileID: 8300000, guid: f6dfc12bc0abd1244819cb059195dffe, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: doorClose
+    clip: {fileID: 8300000, guid: a53f881630a771f428eb93fa817361b3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: hum
+    clip: {fileID: 8300000, guid: 7bedcfd2b36d80e438a082e929490d83, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: menuBgMusic
+    clip: {fileID: 8300000, guid: 2ea2c508278b2ec41b3559352bd29650, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: bitDeath
+    clip: {fileID: 8300000, guid: 00c2f99f21a7a2d4583f245781f30fbc, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: boxPush
+    clip: {fileID: 8300000, guid: 73ea29bd700604f4e837ffa3162936f4, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  musicGroup: {fileID: 3217043121007398195, guid: d5673d68b9da0314ba0389a3ef5cbcbc,
+    type: 2}
+  soundGroup: {fileID: 4261407661133005135, guid: d5673d68b9da0314ba0389a3ef5cbcbc,
+    type: 2}

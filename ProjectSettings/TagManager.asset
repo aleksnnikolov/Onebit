@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - bit
+  - BlinkingLight
+  - Bit
+  - PowerAura
+  - Wire
+  - ElecComp
+  - CheckPoint
+  - GameManager
+  - Box
+  - CrawlerBlock
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Bit
+  - Ground
+  - PowerAura
+  - ProximityAura
+  - Powerable
+  - Box
+  - Hazard
+  - TriggerInteractable
+  - Camera
+  - OnlyPlayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3734490003
+    locked: 0
+  - name: Bit
+    uniqueID: 1297755887
+    locked: 0
