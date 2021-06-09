@@ -5,7 +5,7 @@ A 2D puzzle platformer made in Unity for the [Devtober 2020](https://itch.io/jam
  
  
 
-![footage4](https://user-images.githubusercontent.com/82780938/117836507-f7e91780-b278-11eb-8cf7-94fbb758ea7d.gif)
+![footage4](https://imgur.com/a/uRoLrtc)
 
 
 ![image1](https://img.itch.zone/aW1hZ2UvODAyNzQ5LzQ0OTY1MDAucG5n/original/u3hosN.png)
