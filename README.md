@@ -5,6 +5,6 @@ A 2D puzzle platformer made in Unity for the [Devtober 2020](https://itch.io/jam
  
  
 
-![footage4](https://gfycat.com/impracticaltimelyduckbillcat.gif)
+![footage4](https://giant.gfycat.com/ImpracticalTimelyDuckbillcat.mp4)
 
 ![image1](https://img.itch.zone/aW1hZ2UvODAyNzQ5LzQ0OTY1MDAucG5n/original/u3hosN.png)
