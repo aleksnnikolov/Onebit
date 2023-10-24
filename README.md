@@ -1,5 +1,6 @@
-A 2D puzzle platformer made in Unity for the [Devtober 2020](https://itch.io/jam/devtober-2020)
- game jam.
+A short 2D puzzle platformer with multiple controllable characters and a unique gimmick.
+
+Made in Unity for the [Devtober 2020](https://itch.io/jam/devtober-2020) game jam.
  
  [Itch.io page](https://cortvlkn.itch.io/onebit)
  
